@@ -4,14 +4,13 @@ public class Mean {
     public static void main(String[] args) {
 
         //* дано 1865 часов. Вывести на экран колличество целых дней и часов в виде : "Было дано 1865 часов.Это равно х дней и У часов.
-       float chas = 1865;
-       float dney;
-       float chasov = 0;
+       float c = 1865;
+       float d = 24;
+       float chasov ;
 
-       dney = chas/24;
-       chasov%= dney;
+       chasov = (c-(c/d)*d);
 
-        System.out.println(dney + " "+chasov);
+        System.out.println(d + " "+chasov);
 
 
 
